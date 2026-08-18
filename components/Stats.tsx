@@ -7,7 +7,7 @@ export default function Stats() {
     },
     {
       number: "100%",
-      label: "Clientes satisfechos",
+      label: "Compromiso con cada trabajo",
     },
     {
       number: "24 hs",
