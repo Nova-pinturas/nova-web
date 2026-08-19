@@ -16,7 +16,7 @@ export default function Gallery() {
             NOVA
           </p>
 
-          <h2 className="text-4xl font-bold">
+         <h2 className="text-4xl font-bold text-gray-900">
             Nuestros trabajos
           </h2>
 
