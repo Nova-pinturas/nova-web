@@ -42,19 +42,37 @@ export default function Header() {
   } md:flex flex-col md:flex-row gap-6 md:gap-8 absolute md:static top-full right-0 bg-white p-6 md:p-0 shadow-md md:shadow-none`}
 >
 
-        <a href="#top" onClick={(e) => irASeccion(e, "top")}>Inicio</a>
+<a
+  href="#top"
+  onClick={(e) => irASeccion(e, "top")}
+  className="text-gray-900 font-medium hover:text-orange-500"
+>
+  Inicio
+</a>
 
-        <a href="#servicios" onClick={(e) => irASeccion(e, "servicios")}>
-          Servicios
-        </a>
+<a
+  href="#servicios"
+  onClick={(e) => irASeccion(e, "servicios")}
+  className="text-gray-900 font-medium hover:text-orange-500"
+>
+  Servicios
+</a>
 
-        <a href="#galeria" onClick={(e) => irASeccion(e, "galeria")}>
-          Galería
-        </a>
+<a
+  href="#galeria"
+  onClick={(e) => irASeccion(e, "galeria")}
+  className="text-gray-900 font-medium hover:text-orange-500"
+>
+  Galeria
+</a>
 
-        <a href="#contacto" onClick={(e) => irASeccion(e, "contacto")}>
-          Contacto
-        </a>
+<a
+  href="#contacto"
+  onClick={(e) => irASeccion(e, "contacto")}
+  className="text-gray-900 font-medium hover:text-orange-500"
+>
+  Contacto
+</a>
       </nav>
     </header>
   );
