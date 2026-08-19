@@ -85,34 +85,7 @@ window.open(urlWhatsApp, "_blank");
           Solicita tu presupuesto sin compromiso.
         </p>
 
-        <div className="mx-auto mb-10 grid max-w-5xl gap-4 md:grid-cols-3">
-  <div className="rounded-xl border border-gray-700 bg-gray-900 p-5 text-center">
-    <h3 className="mb-2 font-bold text-white">
-      Presupuesto sin compromiso
-    </h3>
-    <p className="text-sm text-gray-400">
-      Te orientamos según lo que realmente necesita tu espacio.
-    </p>
-  </div>
 
-  <div className="rounded-xl border border-gray-700 bg-gray-900 p-5 text-center">
-    <h3 className="mb-2 font-bold text-white">
-      Atención personalizada
-    </h3>
-    <p className="text-sm text-gray-400">
-      Evaluamos cada trabajo de acuerdo con tus necesidades.
-    </p>
-  </div>
-
-  <div className="rounded-xl border border-gray-700 bg-gray-900 p-5 text-center">
-    <h3 className="mb-2 font-bold text-white">
-      Contacto directo
-    </h3>
-    <p className="text-sm text-gray-400">
-      Recibí una respuesta rápida y coordinamos contigo.
-    </p>
-  </div>
-</div>
 
         <div className="mx-auto max-w-xl rounded-2xl bg-white p-8 text-left text-black shadow-xl">
 
@@ -195,6 +168,35 @@ window.open(urlWhatsApp, "_blank");
           </form>
 
         </div>
+
+        <div className="mx-auto mb-10 grid max-w-5xl gap-4 md:grid-cols-3">
+  <div className="rounded-xl border border-gray-700 bg-gray-900 p-5 text-center">
+    <h3 className="mb-2 font-bold text-white">
+      Presupuesto sin compromiso
+    </h3>
+    <p className="text-sm text-gray-400">
+      Te orientamos según lo que realmente necesita tu espacio.
+    </p>
+  </div>
+
+  <div className="rounded-xl border border-gray-700 bg-gray-900 p-5 text-center">
+    <h3 className="mb-2 font-bold text-white">
+      Atención personalizada
+    </h3>
+    <p className="text-sm text-gray-400">
+      Evaluamos cada trabajo de acuerdo con tus necesidades.
+    </p>
+  </div>
+
+  <div className="rounded-xl border border-gray-700 bg-gray-900 p-5 text-center">
+    <h3 className="mb-2 font-bold text-white">
+      Contacto directo
+    </h3>
+    <p className="text-sm text-gray-400">
+      Recibí una respuesta rápida y coordinamos contigo.
+    </p>
+  </div>
+</div>
       </div>
     </section>
   );
