@@ -15,15 +15,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nova-web.vercel.app"),
-  title: "NOVA | Pintura, Remodelaciones y Terminaciones",
+  metadataBase: new URL("https://nova-web-mu.vercel.app"),
+
+  title: "NOVA Pinturas & Remodelaciones | CABA y GBA",
+
   description:
-    "NOVA transforma espacios con pintura, remodelaciones, tratamiento de humedad, yeso, enduido y Durlock. Solicitá tu presupuesto sin compromiso.",
+    "NOVA Pinturas & Remodelaciones: pintura, enduido, yeso, Durlock y tratamiento de humedad en CABA y GBA. Solicitá tu presupuesto por WhatsApp.",
 
   openGraph: {
-    title: "NOVA | Pintura, Remodelaciones y Terminaciones",
+    title: "NOVA Pinturas & Remodelaciones | CABA y GBA",
     description:
-      "Transformamos espacios. Creamos confianza. Solicitá tu presupuesto sin compromiso.",
+      "Transformamos espacios con calidad y confianza. Pintura, remodelaciones y tratamiento de humedad. Solicitá tu presupuesto.",
     images: ["/nova-og.png"],
     type: "website",
     locale: "es_AR",
@@ -31,9 +33,14 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "NOVA | Pintura, Remodelaciones y Terminaciones",
+    title: "NOVA Pinturas & Remodelaciones | CABA y GBA",
     description:
-      "Transformamos espacios. Creamos confianza.",
+      "Transformamos espacios con calidad y confianza. Solicitá tu presupuesto.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
