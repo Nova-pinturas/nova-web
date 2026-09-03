@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 export default function Contact() {
   const [servicioSeleccionado, setServicioSeleccionado] = useState("");
+  const [fotos, setFotos] = useState<File[]>([]);
 
 useEffect(() => {
   const servicio = sessionStorage.getItem("servicioSeleccionado");
@@ -59,6 +60,10 @@ Problema o reparación: ${problema || "Ninguno indicado"}
 
 Trabajo solicitado:
 ${trabajo}
+
+${fotos.length > 0
+  ? `📷 Fotos del trabajo: ${fotos.length} foto${fotos.length > 1 ? "s" : ""} seleccionada${fotos.length > 1 ? "s" : ""}. El cliente puede enviarlas por este mismo chat.`
+  : ""}
 `;
 
 const mensajeCodificado = encodeURIComponent(mensaje);
@@ -157,6 +162,37 @@ window.open(urlWhatsApp, "_blank");
               required
               className="resize-none rounded-lg border border-gray-300 p-3 outline-none focus:border-orange-500"
             />
+
+            <div className="space-y-2">
+  <label className="block text-sm font-semibold text-gray-700">
+    Fotos del trabajo (opcional)
+  </label>
+
+  <input
+    type="file"
+    accept="image/*"
+    multiple
+    onChange={(e) => setFotos(Array.from(e.target.files || []))}
+    className="w-full rounded-lg border border-gray-300 p-3 text-sm"
+  />
+
+  <p className="text-xs text-gray-500">
+    Podés seleccionar una o varias fotos del espacio.
+  </p>
+
+  {fotos.length > 0 && (
+  <div className="grid grid-cols-3 gap-2 pt-2">
+    {fotos.map((foto, index) => (
+      <img
+        key={index}
+        src={URL.createObjectURL(foto)}
+        alt={`Foto seleccionada ${index + 1}`}
+        className="h-20 w-full rounded-lg object-cover border border-gray-200"
+      />
+    ))}
+  </div>
+)}
+</div>
 
             <button
               type="submit"
