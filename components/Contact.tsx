@@ -168,13 +168,21 @@ window.open(urlWhatsApp, "_blank");
     Fotos del trabajo (opcional)
   </label>
 
-  <input
-    type="file"
-    accept="image/*"
-    multiple
-    onChange={(e) => setFotos(Array.from(e.target.files || []))}
-    className="w-full rounded-lg border border-gray-300 p-3 text-sm"
-  />
+  <label
+  htmlFor="fotos"
+  className="flex cursor-pointer items-center justify-center gap-2 rounded-xl border-2 border-dashed border-orange-300 bg-orange-50 px-4 py-4 text-center font-semibold text-orange-600 transition hover:bg-orange-100"
+>
+  📷 Agregar fotos del espacio
+</label>
+
+<input
+  id="fotos"
+  type="file"
+  accept="image/*"
+  multiple
+  onChange={(e) => setFotos(Array.from(e.target.files || []))}
+  className="hidden"
+/>
 
   <p className="text-xs text-gray-500">
     Podés seleccionar una o varias fotos del espacio.
@@ -198,8 +206,12 @@ window.open(urlWhatsApp, "_blank");
               type="submit"
               className="rounded-xl bg-orange-500 px-8 py-4 font-semibold text-white transition hover:bg-orange-600"
             >
-              Solicitar presupuesto
+              Enviar solicitud por WhatsApp
             </button>
+
+            <p className="text-xs text-gray-500 text-center">
+  Se abrirá WhatsApp con los datos de tu solicitud.
+</p>
 
           </form>
 
