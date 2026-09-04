@@ -68,6 +68,7 @@ export default function RootLayout({
         "@context": "https://schema.org",
         "@type": "Organization",
         name: "NOVA Pinturas & Remodelaciones",
+        image: "https://nova-web-mu.vercel.app/nova-og.png",
         url: "https://nova-web-mu.vercel.app/",
         telephone: "+54 9 11 6132-2469",
         sameAs: [
