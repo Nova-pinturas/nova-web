@@ -21,15 +21,15 @@ export const metadata: Metadata = {
   google: "njeJc62EriUri8FKc4WREZGq4NFHRx5MqhLpbKK47D0",
 },
 
-  title: "NOVA Pinturas & Remodelaciones | CABA y GBA",
+  title: "NOVA Pinturas & Remodelaciones | Pintores en CABA y GBA",
 
   description:
     "NOVA Pinturas & Remodelaciones: pintura, enduido, yeso, Durlock y tratamiento de humedad en CABA y GBA. Solicitá tu presupuesto por WhatsApp.",
 
   openGraph: {
-    title: "NOVA Pinturas & Remodelaciones | CABA y GBA",
+    title: "NOVA Pinturas & Remodelaciones | Pintores en CABA y GBA",
     description:
-      "Transformamos espacios con calidad y confianza. Pintura, remodelaciones y tratamiento de humedad. Solicitá tu presupuesto.",
+  "NOVA Pinturas & Remodelaciones: pintura, enduido, yeso, Durlock y tratamiento de humedad en CABA y GBA. Solicitá tu presupuesto.",
     images: ["/nova-og.png"],
     type: "website",
     locale: "es_AR",
