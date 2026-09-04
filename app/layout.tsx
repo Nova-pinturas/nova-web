@@ -58,8 +58,44 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-    <body className="min-h-full flex flex-col">
+  <body className="min-h-full flex flex-col">
   {children}
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: "NOVA Pinturas & Remodelaciones",
+        url: "https://nova-web-mu.vercel.app/",
+        telephone: "+54 9 11 6132-2469",
+        sameAs: [
+          "https://www.instagram.com/novapinturas.arg/"
+        ],
+        areaServed: [
+          {
+            "@type": "City",
+            name: "Buenos Aires"
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Gran Buenos Aires"
+          }
+        ],
+        knowsAbout: [
+          "Pintura",
+          "Enduido",
+          "Yeso",
+          "Durlock",
+          "Tratamiento de humedad",
+          "Revoques",
+          "Remodelaciones"
+        ]
+      })
+    }}
+  />
+
   <WhatsAppButton />
 </body>
 
