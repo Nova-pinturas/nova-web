@@ -13,27 +13,27 @@ const irContacto = (servicio: string) => {
     {
       title: "Pintura",
       description:
-        "Pintura de interiores y exteriores con terminaciones profesionales.",
+  "Pintura de interiores y exteriores para hogares y comercios, con preparación de superficies y terminaciones profesionales.",
     },
     {
       title: "Tratamiento de humedad",
-      description:
-        "Tratamos problemas de humedad y preparamos las superficies correctamente.",
+     description:
+  "Tratamiento de humedad y preparación de superficies para reparar, proteger y mejorar las paredes de tu espacio.",
     },
     {
       title: "Yeso, enduido y durlock",
       description:
-        "Reparación, preparación de paredes e instalación de Durlock para lograr terminaciones prolijas y profesionales.",
+  "Trabajos de yeso, enduido y Durlock para reparar, nivelar y preparar paredes con terminaciones prolijas y profesionales.",
     },
     {
       title: "Remodelaciones",
       description:
-        "Renovamos y mejoramos espacios adaptándonos a las necesidades de cada proyecto.",
+  "Remodelamos y renovamos espacios para mejorar su aspecto, funcionalidad y terminación según cada proyecto.",
     },
     {
   title: "Plomería",
   description:
-    "Reparaciones e instalaciones de plomería para mantener tu espacio en buenas condiciones.",
+  "Reparaciones e instalaciones de plomería para hogares y comercios, con soluciones prácticas para cada necesidad.",
 },
   ];
 
@@ -46,12 +46,12 @@ const irContacto = (servicio: string) => {
           </p>
 
           <h2 className="text-4xl font-bold text-gray-900">
-            Nuestros servicios
-          </h2>
+            Servicios de pintura y remodelación en CABA y GBA
+         </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-            Soluciones profesionales para transformar, renovar y proteger tus
-            espacios.
+            Realizamos trabajos de pintura, reparación y remodelación para hogares,
+            comercios y espacios en CABA y GBA.
           </p>
         </div>
 
