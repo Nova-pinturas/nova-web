@@ -24,14 +24,14 @@ export default function Hero() {
         </p>
 
         <h1 className="mb-8 text-3xl font-extrabold leading-tight text-white md:text-5xl">
+          Pintores en CABA y GBA.
+        <br />
           Transformamos espacios.
-          <br />
-          Creamos confianza.
-        </h1>
+       </h1>
 
         <p className="mx-auto mb-10 max-w-2xl text-xl text-gray-300">
           Especialistas en pintura, remodelaciones, tratamiento de humedad,
-          yeso, enduido y terminaciones profesionales.
+          yeso, enduido, durlock y terminaciones profesionales.
         </p>
 
         <Button onClick={irAContacto}>
