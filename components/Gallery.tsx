@@ -31,7 +31,7 @@ export default function Gallery() {
           <div className="overflow-hidden rounded-2xl">
             <img
               src="/trabajo-1.jpg"
-              alt="Trabajo de pintura realizado por NOVA"
+              alt="Trabajo de pintura de interiores realizado por NOVA Pinturas & Remodelaciones"
               onClick={() =>
                 setImagenSeleccionada("/trabajo-1.jpg")
               }
@@ -42,7 +42,7 @@ export default function Gallery() {
           <div className="overflow-hidden rounded-2xl">
             <img
               src="/trabajo-2.jpg"
-              alt="Trabajo de remodelación realizado por NOVA"
+              alt="Trabajo de remodelación realizado por NOVA Pinturas & Remodelaciones"
               onClick={() =>
                 setImagenSeleccionada("/trabajo-2.jpg")
               }
@@ -53,7 +53,7 @@ export default function Gallery() {
           <div className="overflow-hidden rounded-2xl">
             <img
               src="/trabajo-3.jpg"
-              alt="Terminación profesional realizada por NOVA"
+              alt="Terminación profesional de pintura realizada por NOVA Pinturas & Remodelaciones"
               onClick={() =>
                 setImagenSeleccionada("/trabajo-3.jpg")
               }
