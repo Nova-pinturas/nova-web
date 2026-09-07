@@ -82,13 +82,14 @@ window.open(urlWhatsApp, "_blank");
         </p>
 
         <h2 className="mb-5 text-4xl font-bold">
-          ¿Tenés un proyecto en mente?
-        </h2>
+          Presupuesto de pintura y remodelación en CABA y GBA
+      </h2>
 
-        <p className="mx-auto mb-10 max-w-2xl text-lg text-gray-300">
-          Contanos qué necesitás y te ayudamos a transformar tu espacio.
-          Solicita tu presupuesto sin compromiso.
-        </p>
+      <p className="mx-auto mb-10 max-w-2xl text-lg text-gray-300">
+        Contanos qué necesitás y te ayudamos a transformar tu espacio.
+        Realizamos trabajos de pintura, remodelación, enduido, yeso, Durlock
+        y tratamiento de humedad. Solicitá tu presupuesto sin compromiso.
+     </p>
 
 
 
