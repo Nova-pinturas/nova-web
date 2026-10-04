@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-950 text-white">
       <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-4">
 
           {/* Marca */}
           <div>
@@ -71,8 +71,34 @@ export default function Footer() {
             >
               Solicitar presupuesto
             </a>
+            
           </div>
+              {/* Redes sociales */}
+              <div>
+                <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
+                  Seguinos
+                </h3>
 
+                <div className="flex flex-col gap-3 text-sm">
+                  <a
+                    href="https://www.instagram.com/novapinturas.arg/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 transition hover:text-orange-500"
+                  >
+                    Instagram
+                  </a>
+
+                  <a
+                    href="https://wa.me/5491161132469"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 transition hover:text-orange-500"
+                  >
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
         </div>
 
         {/* Línea inferior */}
