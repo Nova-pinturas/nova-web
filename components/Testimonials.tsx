@@ -25,9 +25,11 @@ export default function Testimonials() {
   return (
     <section id="testimonios" className="bg-white px-6 py-24">
       <div className="mx-auto max-w-6xl">
+
+        {/* Encabezado */}
         <div className="mb-14 text-center">
           <p className="mb-3 font-semibold uppercase tracking-[0.3em] text-orange-500">
-            OPINIONES REALES
+            NOVA
           </p>
 
           <h2 className="text-4xl font-bold text-gray-900">
@@ -40,13 +42,14 @@ export default function Testimonials() {
           </p>
         </div>
 
+        {/* Opiniones */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {testimonios.map((testimonio) => (
             <div
               key={testimonio.nombre}
               className="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              <div className="mb-5 text-2xl tracking-wide text-orange-500">
+              <div className="mb-5 text-2xl text-orange-500">
                 ★★★★★
               </div>
 
@@ -55,7 +58,7 @@ export default function Testimonials() {
               </p>
 
               <div className="mt-6 border-t border-gray-200 pt-4">
-                <p className="font-semibold text-gray-900">
+                <p className="font-bold text-gray-900">
                   {testimonio.nombre}
                 </p>
 
@@ -67,15 +70,31 @@ export default function Testimonials() {
           ))}
         </div>
 
-        <div className="mt-12 rounded-2xl bg-orange-50 p-6 text-center">
-          <p className="font-semibold text-gray-900">
+        {/* Invitación a dejar una opinión */}
+        <div className="mt-12 rounded-2xl bg-orange-50 p-8 text-center">
+          <div className="mb-3 text-2xl text-orange-500">
+            ★★★★★
+          </div>
+
+          <p className="text-xl font-bold text-gray-900">
             ¿Ya trabajaste con NOVA?
           </p>
 
-          <p className="mt-2 text-gray-600">
-            Tu experiencia también puede ayudar a otras personas a conocernos.
+          <p className="mx-auto mt-2 max-w-xl text-gray-600">
+            Tu opinión nos ayuda a seguir creciendo y también ayuda a otras
+            personas a conocernos.
           </p>
+
+          <a
+            href="https://maps.app.goo.gl/ggfQCaLv8X52EB5t8?g_st=am"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block rounded-xl bg-orange-500 px-6 py-3 font-semibold text-white transition duration-300 hover:bg-orange-600 hover:shadow-lg"
+          >
+            ⭐ Dejar una opinión en Google
+          </a>
         </div>
+
       </div>
     </section>
   );
