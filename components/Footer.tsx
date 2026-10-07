@@ -74,31 +74,40 @@ export default function Footer() {
             
           </div>
               {/* Redes sociales */}
-              <div>
-                <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
-                  Seguinos
-                </h3>
+<div>
+  <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
+    Seguinos
+  </h3>
 
-                <div className="flex flex-col gap-3 text-sm">
-                  <a
-                    href="https://www.instagram.com/novapinturas.arg/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 transition hover:text-orange-500"
-                  >
-                    Instagram
-                  </a>
+  <div className="flex flex-col gap-3 text-sm">
+    <a
+      href="https://www.instagram.com/novapinturas.arg/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-400 transition hover:text-orange-500"
+    >
+      Instagram
+    </a>
 
-                  <a
-                    href="https://wa.me/5491161132469"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 transition hover:text-orange-500"
-                  >
-                    WhatsApp
-                  </a>
-                </div>
-              </div>
+    <a
+      href="https://www.facebook.com/profile.php?id=61594333101559"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-400 transition hover:text-orange-500"
+    >
+      Facebook
+    </a>
+
+    <a
+      href="https://wa.me/5491161132469"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-400 transition hover:text-orange-500"
+    >
+      WhatsApp
+    </a>
+  </div>
+</div>
         </div>
 
         {/* Línea inferior */}
