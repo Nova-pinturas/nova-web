@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nova-web-mu.vercel.app"),
+  metadataBase: new URL("https://www.novapinturas.com.ar"),
 
   verification: {
   google: "njeJc62EriUri8FKc4WREZGq4NFHRx5MqhLpbKK47D0",
